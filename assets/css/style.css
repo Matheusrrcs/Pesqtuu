@@ -1,0 +1,308 @@
+html,body{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;   
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    
+}
+
+/* ==================header===========*/
+ #title-h1{
+    font-weight: 100;
+}
+ 
+.fundo{
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url(../imagens/fundo2.png)  ;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+ 
+ 
+.botao{
+
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    background-image:linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),url(../imagens/dark-arrow.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+ 
+}
+
+.botao:hover{
+    background-image:linear-gradient( rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30)),url(../imagens/dark-arrow.svg) ;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ==================options===========*/
+.alter1{
+    
+    display: inline-block;
+    background-image:linear-gradient(rgb(189,224,225,.4),rgb(255,189,214,.4)),url(../imagens/livro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    border: 2px solid rgb(0,0,0,0.2);
+
+}
+
+.alter1:hover{
+    box-shadow:  4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+  
+    
+}
+.alter1:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.alter2{
+    -webkit-appearance: none;
+    display: inline-block;
+    background-image:linear-gradient(rgb(189,224,225,.4),rgb(255,189,214,.4)),url(../imagens/musica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    border: 2px solid rgb(0,0,0,0.2);
+    
+}
+.alter2:hover{
+    box-shadow:  4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    
+}
+.alter2:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.alter3{
+    -webkit-appearance: none;
+    display: inline-block;
+    background-image:linear-gradient(rgb(189,224,225,.4),rgb(255,189,214,.4)),url(../imagens/fanfic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    border: 2px solid rgb(0,0,0,0.2);
+    
+}
+.alter3:hover{
+    
+    box-shadow:  4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    
+}
+.alter3:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.titulo{
+    padding-top: 40px;
+}
+
+.titulo::after{
+    content: "";
+    width: 380px;
+    border: 1px solid rgb(0,0,0,0.2);
+    height: 4px;
+    background:linear-gradient(rgb(189,224,225),rgb(255,189,214));
+    display: block;
+    margin: 15px  auto;
+}
+.titulo::before{
+    content: "";
+    width: 380px;
+    border: 1px solid rgb(0,0,0,0.2);
+    height: 4px;
+    background:linear-gradient(rgb(189,224,225),rgb(255,189,214));
+    display: block;
+    margin: 15px  auto;
+}
+ 
+.services{
+    height:100vh;
+}
+
+
+
+/* ==================footer===========*/
+footer{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url(../imagens/fundo2.png)  ;
+    background-size: cover;
+    background-position: center;
+    height: 115px;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+}
+
+footer a{
+   color: rgb(255, 255, 255);
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(219, 218, 218);
+}
+
+
+
+ 
+
+/*atention=======================================================================================*/
+.atention{
+    background:linear-gradient(rgba(189, 224, 225),rgba(189, 224, 225, 0.699),rgb(255,189,214,0.699),rgb(255,189,214));
+    padding: 2.4rem;
+    width: 90%;
+    max-width: 500px;
+
+}
+
+#h2-form{
+    text-align: center;
+}
+
+ 
+
+  
+.input-group.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0 0 0;
+    
+}
+
+.button.cancel{
+    background:white;
+    color:rgb(0, 0, 0);
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border:1px solid black;
+}
+ 
+
+.input-group.actions .button,.input-group.actions button{
+    width: 48%;
+}
+
+ 
+.atention-overlay{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+ }
+
+ .atention-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ==================forms===========*/
+.input-group input{
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .input-group{
+    margin-top: 0.8rem;
+    
+}
+
+
+.input-radio{
+    display:flex;
+   align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex-direction:row;
+    margin-top: 0.8rem;
+    
+}
+ 
+.input-radio label,input{
+    margin-right: 10px;
+}
+
+small{
+    color: rgba(43, 43, 43, 0.76);
+}
+.custom-shape-divider-top-1621712734 {
+     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+.custom-shape-divider-top-1621712734 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-top-1621712734 .shape-fill {
+    fill: #BDE0E1;
+}
+
+.custom-shape-divider-bottom-1621712876 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621712876 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-bottom-1621712876 .shape-fill {
+    fill: #FFBDD6;
+}
